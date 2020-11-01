@@ -17,11 +17,23 @@ let mySwiper = new Swiper('.swiper-container', {
 
 });
 
-let menuButton = document.querySelector('.menu-button');
+let burger = document.querySelector('.header__burger');
 let menu = document.querySelector('.header');
+let modalAuth = document.querySelector('.modal-auth');
+let modal = document.querySelector('.modal');
+let buttonClose = document.querySelector('.button-close');
 
-menuButton.addEventListener('click', function() {
-    menuButton.classList.toggle('menu-button-active')
+
+burger.addEventListener('click', function() {
+    burger.classList.toggle('header__burger-active')
     menu.classList.toggle('header-active');
 
+})
+
+modalAuth.addEventListener('click', () => {
+    modal.classList.toggle('modal-active')
+})
+
+buttonClose.addEventListener('click', () => {
+    modal.classList.toggle('modal-active')
 })

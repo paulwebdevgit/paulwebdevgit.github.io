@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Withcer</title>
+    <title>Witcher</title>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
       rel="stylesheet"
@@ -34,15 +34,16 @@
   </head>
 
   <body>
+    
     <header>
       <div class="container">
         <div class="header">
           <img src="img/logo.png" alt="Logo Witcher" class="logo" />
 
           <nav class="menu-list">
-            <a href="#" class="menu-link">Описание</a>
-            <a href="#" class="menu-link">Трейлер</a>
-            <a href="#" class="menu-link">Отзывы</a>
+            <a href="#" class="menu-link modal-auth">Beschreibung</a>
+            <!-- <a href="#" class="menu-link"></a> -->
+            <a href="#" class="menu-link">Bewertungen</a>
           </nav>
 
           <div class="social">
@@ -52,9 +53,15 @@
             /></a>
             <a href="#" class="social-link"><img src="img/Social/facebook.svg" alt="Facebook" /></a>
           </div>
+
+         
         </div>
         <!-- /.header -->
-        <button class="menu-button"></button>
+        <div class="header__burger">
+          <span></span>
+          <!-- <button class="menu-button"></button> -->
+        </div>
+        
       </div>
       <!-- /.container -->
     </header>
@@ -63,7 +70,7 @@
       <div class="container">
         <div class="main-content">
           <div class="content">
-            <span class="ganre">2019, Фэнтази</span>
+            <span class="ganre">2019, US-amerikanisch-polnische Fantasyserie</span>
             <div class="rating">
               <div class="rating-stars">
                 <img src="img/Star.svg" alt="Star" class="star" />
@@ -80,24 +87,22 @@
               <div class="rating-number">7/10</div>
             </div>
 
-            <h1 class="main-titel animated fadeInLeft">Ведьмак</h1>
+            <h1 class="main-titel animated fadeInLeft">The Witcher</h1>
             <p class="maim-discription animated fadeInLeft">
-              Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва
-              путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас
-              от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных
-              принцесс.
+              Geralt von Riva, ein mutierter Monsterjäger, folgt seiner Bestimmung in eine turbulente Welt, 
+              in der Menschen oft boshafter sind als Biester.
             </p>
             <a
               data-fancybox
-              href="https://www.youtube.com/watch?v=6bCB2y2BSyc&amp; autoplay=1&amp;rel=0&amp;showinfo=0"
+              href="https://www.youtube.com/watch?v=ndl1W4ltcmg&amp; autoplay=1&amp;rel=0&amp;showinfo=0"
             >
-              <button class="button animated fadeInLeft">Смотреть онлайн</button>
+              <button class="button animated fadeInLeft">Trailer anschauen</button>
             </a>
           </div>
           <a
             class="play-link"
             data-fancybox
-            href="https://www.youtube.com/watch?v=4GaZDovI4dk&amp; autoplay=1&amp;rel=0&amp;showinfo=0"
+            href="https://www.youtube.com/watch?v=uaTC-Y4K7ng&amp; autoplay=1&amp;rel=0&amp;showinfo=0"
           >
             <button class="play"><img src="img/Play.svg" alt="Play" class="play-img" /></button>
           </a>
@@ -111,22 +116,28 @@
             <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide">
-                <div class="card series-1">
-                  <span class="card-subtitle">Серия #1</span>
-                  <h2 class="card-title">Начало конца</h2>
+                <a class="slider-link" data-fancybox href="https://www.youtube.com/watch?v=pGM-u6qUVEM&amp; autoplay=1&amp;rel=0&amp;showinfo=0"> 
+                  <div class="card series-1">
+                  <span class="card-subtitle">Staffel 1</span>
+                    <h2 class="card-title">Des Endes Anfang</h2>
                 </div>
+              </a>
               </div>
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Серия #2</span>
-                  <h2 class="card-title">Четыре знака</h2>
+                <a class="slider-link" data-fancybox href="https://www.youtube.com/watch?v=2VZLbaW0aJc&amp; autoplay=1&amp;rel=0&amp;showinfo=0"> 
+                  <div class="card series-2">
+                  <span class="card-subtitle">Staffel 2</span>
+                    <h2 class="card-title">Vier Mark</h2>
                 </div>
+              </a>
               </div>
               <div class="swiper-slide">
-                <div class="card series-2">
-                  <span class="card-subtitle">Серия #2</span>
-                  <h2 class="card-title">Четыре знака</h2>
+                <a class="slider-link" data-fancybox href="https://www.youtube.com/watch?v=AhsgCUvjC-U&amp; autoplay=1&amp;rel=0&amp;showinfo=0"> 
+                  <div class="card series-3">
+                  <span class="card-subtitle">Staffel 3</span>
+                    <h2 class="card-title">Verrätermond</h2>
                 </div>
+              </a>
               </div>
             </div>
 
@@ -143,6 +154,29 @@
         </div>
       </div>
       <!-- /.container -->
+      <div class="modal">
+        <div class="modal__text-wraper">
+          <button class="button-close">x</button>
+        <p>Handlung <br>
+          Die erste Staffel basiert vor allem auf dem Kurzgeschichtenband Der letzte Wunsch, 
+          einer Geschichte aus  "Das Schwert der Vorsehung", sowie Teilen des ersten Bandes der Pentalogie, 
+          Das Erbe der Elfen. Drei Handlungsstränge auf teils unterschiedlichen Zeitebenen laufen parallel 
+          und führen die Staffel zum Ende hin zusammen, wobei verschiedene Charaktere oder Ereignisse 
+          im Vergleich zur Vorlage in einen anderen Kontext gesetzt wurden.
+          
+          So behandeln einzelne Folgen die Kurzgeschichten Das kleinere Übel, 
+          um die Räuberprinzessin Renfri, Der Hexer, in der Geralt eine Striege bekämpft und von 
+          ihrem Fluch erlöst, Eine Frage des Preises, bei der Geralt durch das „Gesetz der Überraschung“ 
+          eine Verbindung mit der ungeborenen Ciri, bei Pavettas Vermählung mit dem Igel, eingeht, 
+          sowie Der Rand der Welt, als Geralt, zusammen mit Rittersporn, nach der Jagd auf einen Silvan 
+          in die Fänge von Elfen gerät. Der letzte Wunsch schildert das Zustandekommen der Verbindung von 
+          Geralt und Yennefer durch einen Dschinn. Die Grenzen des Möglichen schildert die Jagd auf einen Drachen. 
+          Außerdem schildert die Staffel Yennefers Werdegang von einer missgestalteten Magd zur mächtigen Zauberin, 
+          sowie Ciris Flucht aus Cintra, nach dem Angriff Nilfgaards, in den magischen Brokilon-Wald, 
+          bewohnt von Dryaden und schließlich ihr erstes Zusammentreffen mit Geralt, dem sie als „Kind der Vorsehung“ 
+          versprochen war, was ihre Großmutter Calanthe aber zu verhindern versuchte.</p>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
@@ -161,5 +195,6 @@
         </div>
       </div>
     </footer>
+    
   </body>
 </html>
