@@ -310,8 +310,9 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -340px;
-  margin-top: -276px;
+  /* margin-left: -340px;
+  margin-top: -276px; */
+  transform: translate(-50%, -50%);
   max-width: 680px;
   width: 95%;
   min-height: 552px;
