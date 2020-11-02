@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ps01",
+    "name": "3 Pizzas",
+    "description": "Salami, Kässe, Hawai",
+    "price": 8,
+    "image": "img/palki-skalki/combo.jpg"
+  },
+  {
+    "id": "ps02",
+    "name": "Pizza Sucuk Keeper",
+    "description": "Margherita mit würziger Sucuk, herzhaftem Chester (Schmelzkäsezubereitung), roten Zwiebeln, Edamer, sahnigen Mozzarellakugeln und scharfen Jalapenos",
+    "price": 9,
+    "image": "img/palki-skalki/rome.jpg"
+  },
+  {
+    "id": "ps03",
+    "name": "Pizza Capricciosa",
+    "description": "Margherita mit Hinterschinken, frischen Champignons, Artischocken, Oliven und Peperoni ",
+    "price": 10,
+    "image": "img/palki-skalki/fusion.jpg"
+  },
+  {
+    "id": "ps04",
+    "name": "Ebi Udon",
+    "description": "Japanische Suppe mit Miso-Brühe mit Ei, Tigergarnelen, Nudeln, Pilzen und Frühlingszwiebeln.",
+    "price": 11,
+    "image": "img/palki-skalki/udon.jpg"
+  },
+  {
+    "id": "ps05",
+    "name": "Cheeseburger",
+    "description": "Fleischkotelett, Eisbergsalat, Chefkochsauce, Tomaten, Essiggurken, Cheddar-Käse, BBQ-Sauce",
+    "price": 12,
+    "image": "img/palki-skalki/cheeseburger.jpg"
+  },
+  {
+    "id": "ps06",
+    "name": "Burrito mit Huhn",
+    "description": "Сыр, помидор, цыпленок, перец сладкий, лук, салат, яичный блинчик, соус сырный, тортилья, кетчуп",
+    "price": 13,
+    "image": "img/palki-skalki/burrito.jpg"
+  }
+]

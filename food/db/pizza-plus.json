@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pp01",
+    "name": "Pizza Paparazzi",
+    "description": "Margherita mit roten Zwiebeln und frischen Cocktailtomaten gebacken, anschließend verfeinert mit Pesto und frisch gehobeltem Grande Gustoso",
+    "price": 5,
+    "image": "img/pizza-plus/pizza-vesuvius.jpg"
+  },
+  {
+    "id": "pp02",
+    "name": "Pizza Vulcano",
+    "description": "Pizzateig mit pikanter Barbecue-Soße, TABASCO® Sauce, Edamer, knusprigem Bacon, scharfen Jalapeños und Crème Fraîche",
+    "price": 4,
+    "image": "img/pizza-plus/pizza-girls.jpg"
+  },
+  {
+    "id": "pp03",
+    "name": "Pizza X-Treme",
+    "description": "Margherita mit Pepperoni-Salami, würzigem Beef, herzhaftem Chester (Schmelzkäsezubereitung), Zwiebeln, Käse on top, pikanter Barbecue-Soße und knusprigem Bacon",
+    "price": 4,
+    "image": "img/pizza-plus/pizza-oleole.jpg"
+  },
+  {
+    "id": "pp04",
+    "name": "Pizza Muchacho",
+    "description": "Pizzateig mit pikanter Barbecue-Soße, Edamer, Pepperoni-Salami, gebratener Hähnchenbrust, Zwiebeln, frischer Paprika und Mais",
+    "price": 8,
+    "image": "img/pizza-plus/pizza-plus.jpg"
+  },
+  {
+    "id": "pp05",
+    "name": "Pizza Gaumengangster",
+    "description": "Margherita mit gebratener Hähnchenbrust, Blattspinat, einer cremigen Hollandaise und knusprigem Bacon",
+    "price": 7,
+    "image": "img/pizza-plus/pizza-hawaiian.jpg"
+  },
+  {
+    "id": "pp06",
+    "name": "Pizza Homerun",
+    "description": "Pizzateig mit pikanter Barbecue-Soße, Edamer, roten Zwiebeln, herzhaftem Cheddar und knusprigem Bacon, anschließend verfeinert mit Block House Steakpfeffer und Crème Fraîche",
+    "price": 5,
+    "image": "img/pizza-plus/pizza-classic.jpg"
+  }
+]
