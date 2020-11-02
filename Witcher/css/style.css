@@ -43,12 +43,12 @@ p {
 
 .menu-list {
   margin-right: auto;
-  margin-left: 48px;
+  margin-left: 38px;
 }
 
 .menu-link {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 18px;
   color: #ffffff;
   text-decoration: none;
   margin-right: 24px;
@@ -316,11 +316,19 @@ h2 {
   max-width: 680px;
   width: 95%;
   min-height: 552px;
-  background-color: rgb(13, 13, 14);
+  max-height: 552px;
+  /* background-color: rgb(13, 13, 14); */
+
+  background: linear-gradient(243deg, rgba(15, 13, 18, 1) 0%, rgba(27, 22, 34, 1) 73%, rgba(27, 24, 29, 1) 100%);
   border-radius: 20px;
   z-index: 1;
 
 
+}
+
+.modal .modal__text-wraper h1 {
+  font-size: 22px;
+  text-align: center;
 }
 
 
@@ -332,9 +340,11 @@ h2 {
 .modal__text-wraper {
   max-width: 560px;
   width: 80%;
-  min-height: 400px;
+  min-height: 425px;
+  max-height: 440px;
   height: 80%;
   margin: 50px auto;
+  overflow: hidden scroll;
 
 }
 
