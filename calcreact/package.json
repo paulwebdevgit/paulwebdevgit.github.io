@@ -1,6 +1,6 @@
 {
-  "homepage": "https://paulwebdevgit.github.io/calcmoney/",
-  "name": "calc-money",
+  "homepage": "https://paulwebdevgit.github.io/calcreact/",
+  "name": "calcreact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "3.1.0"
+    "gh-pages": "^3.1.0"
   }
 }
