@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.content-wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  width: 1000px;
+  margin: auto;
+}
+
+.customization {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.values {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.button-wraper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  font-size: 1.5rem;
+  background: #9d2929;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  margin-right: 10px;
+
+  padding: 24px 44px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.canvas-wraper {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  border: black solid 1px;
+
+}
+
+input {
+  width: 100%;
+}
+
+.height {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.height:after {
+  content: attr(data-title);
+  font-size: 12px;
+  width: 150px;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  text-align: center;
+  background: lightblue;
+  border-radius: 30px;
+  padding: 7px 10px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: 0.34s linear;
+  color: #fff;
+  box-shadow: 0 5px 12px #ccc;
+  pointer-events: none;
+}
+
+.height:hover:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.width {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.width:after {
+  content: attr(data-title);
+  font-size: 12px;
+  width: 150px;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  text-align: center;
+  background: lightblue;
+  border-radius: 30px;
+  padding: 7px 10px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: 0.34s linear;
+  color: #fff;
+  box-shadow: 0 5px 12px #ccc;
+  pointer-events: none;
+}
+
+.width:hover:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.form_input {
+  height: 2.8rem;
+  padding: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  -moz-box-sizing: border-box;
+}
+
+.form_input::placeholder {
+  color: #999;
+  opacity: 1;
+  font-size: 1rem;
+}
+
+.form_input:focus::placeholder {
+  color: transparent;
+}
