@@ -161,13 +161,7 @@ a {
     line-height: 21px;
 }
 
-.footer-text,
-.footer-text a {
-    font-size: 18px;
-    line-height: 21px;
-    color: #808080;
-    text-align: center;
-}
+
 
 .footer-button {
     display: flex;
