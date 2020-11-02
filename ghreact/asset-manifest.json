@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/calcreact/static/css/main.c7ebeecd.chunk.css",
+    "main.js": "/calcreact/static/js/main.11cb0af5.chunk.js",
+    "main.js.map": "/calcreact/static/js/main.11cb0af5.chunk.js.map",
+    "runtime-main.js": "/calcreact/static/js/runtime-main.670f007e.js",
+    "runtime-main.js.map": "/calcreact/static/js/runtime-main.670f007e.js.map",
+    "static/js/2.4f76cc04.chunk.js": "/calcreact/static/js/2.4f76cc04.chunk.js",
+    "static/js/2.4f76cc04.chunk.js.map": "/calcreact/static/js/2.4f76cc04.chunk.js.map",
+    "index.html": "/calcreact/index.html",
+    "precache-manifest.1a024508defb017f034e3010240ab180.js": "/calcreact/precache-manifest.1a024508defb017f034e3010240ab180.js",
+    "service-worker.js": "/calcreact/service-worker.js",
+    "static/css/main.c7ebeecd.chunk.css.map": "/calcreact/static/css/main.c7ebeecd.chunk.css.map",
+    "static/js/2.4f76cc04.chunk.js.LICENSE.txt": "/calcreact/static/js/2.4f76cc04.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.670f007e.js",
+    "static/js/2.4f76cc04.chunk.js",
+    "static/css/main.c7ebeecd.chunk.css",
+    "static/js/main.11cb0af5.chunk.js"
+  ]
+}
