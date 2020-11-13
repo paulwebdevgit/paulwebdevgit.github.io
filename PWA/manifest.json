@@ -1,0 +1,22 @@
+{
+    "name": "Witcher PWA",
+    "short_name": "Witcher",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+          "src": "/img/logo192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/img/logo512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+  }
