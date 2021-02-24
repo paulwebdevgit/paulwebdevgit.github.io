@@ -42,19 +42,35 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
     console.log('Es wird eine Anfrage an den Server gestellt');
-    event.respondWith(
-        //  Network falling back to cache
-        fetch(event.request)
-        .then(async(response) => {
-            const cache = await caches.open(cacheStorage);
-            cache.put(event.request.url, response.clone());
-            console.log('Service Worker nimmt die Daten aus dem Netz', event.request.url);
-            return response.clone();
-        })
-        .catch(async() => {
-            console.log('Service Worker nimmt die Daten aus dem Cache', event.request.url)
-            const response = await caches.match(event.request);
-            return response;
-        })
-    )
+    if (event.request.url.indexOf(event.request.url) != -1) {
+        event.respondWith(
+            //  Network falling back to cache
+            fetch(event.request)
+            .then(async(response) => {
+                const cache = await caches.open(cacheStorage);
+                cache.put(event.request.url, response.clone());
+                console.log('Service Worker nimmt die Daten aus dem Netz', event.request.url);
+                return response.clone();
+            })
+            .catch(async() => {
+                console.log('Service Worker nimmt die Daten aus dem Cache', event.request.url)
+                const response = await caches.match(event.request);
+                return response;
+            })
+        )
+    } else {
+        event.respondWith(
+            caches.match(event.request).then((response) => {
+
+                if (response) {
+                    console.log('[Service Worker]: returning ' + event.request.url + ' from cache')
+                    return response
+                } else {
+                    console.log('[Service Worker]: returning ' + event.request.url + ' from net')
+                    return fetch(event.request)
+                }
+
+            })
+        )
+    }
 });
