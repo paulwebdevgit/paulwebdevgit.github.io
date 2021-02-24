@@ -10,7 +10,7 @@ if (navigator.storage && navigator.storage.persist)
         if (persistent)
             console.log("Der Speicher wird nicht gelöscht, bei bedarf des Browsers gelöscht");
         else
-            console.log("Die Speicherung kann unter Speicherdruck gelöscht werden.");
+            console.log("Der Speicher kann unter Speicherdruck gelöscht werden.");
     });
 
 // Auskomentieren wenn man die Quota anfordern möchte.
@@ -28,7 +28,7 @@ if ('serviceWorker' in navigator) {
     window.addEventListener("load", () => {
 
         navigator.serviceWorker
-            .register('/bachelorarbeit/sw.js', { scope: '/bachelorarbeit/fotos/' })
+            .register('/paulwebdevgit.github.io/bachelorarbeit/sw.js', { scope: '/paulwebdevgit.github.io/bachelorarbeit/' })
             .then((reg) => {
                 // Registrierung erfolgreich
                 console.log('Registrierung erfolgreich. Scope ist ' + reg.scope);
