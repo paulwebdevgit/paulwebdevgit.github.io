@@ -44,6 +44,20 @@ self.addEventListener('fetch', (event) => {
     console.log('Es wird eine Anfrage an den Server gestellt');
     if (event.request.url.indexOf(event.request.url) != -1) {
         event.respondWith(
+            caches.match(event.request).then((response) => {
+
+                if (response) {
+                    console.log('[Service Worker]: returning ' + event.request.url + ' from cache')
+                    return response
+                } else {
+                    console.log('[Service Worker]: returning ' + event.request.url + ' from net')
+                    return fetch(event.request)
+                }
+
+            })
+        )
+    } else {
+        event.respondWith(
             //  Network falling back to cache
             fetch(event.request)
             .then(async(response) => {
@@ -56,20 +70,6 @@ self.addEventListener('fetch', (event) => {
                 console.log('Service Worker nimmt die Daten aus dem Cache', event.request.url)
                 const response = await caches.match(event.request);
                 return response;
-            })
-        )
-    } else {
-        event.respondWith(
-            caches.match(event.request).then((response) => {
-
-                if (response) {
-                    console.log('[Service Worker]: returning ' + event.request.url + ' from cache')
-                    return response
-                } else {
-                    console.log('[Service Worker]: returning ' + event.request.url + ' from net')
-                    return fetch(event.request)
-                }
-
             })
         )
     }
