@@ -81,7 +81,7 @@ function display(videoBlob) {
     textinfo.className = "text-info"
 
     videoPlaceHolder.insertAdjacentElement('afterbegin', video_wrapper);
-    video_wrapper.insertAdjacentElement('afterbegin', video);
+    video_wrapper.insertAdjacentElement('beforeend', video);
     video.insertAdjacentElement('afterbegin', videoSrc);
     video_wrapper.insertAdjacentElement('beforeend', textinfo);
 
