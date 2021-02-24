@@ -28,7 +28,7 @@ if ('serviceWorker' in navigator) {
     window.addEventListener("load", () => {
 
         navigator.serviceWorker
-            .register('/paulwebdevgit.github.io/bachelorarbeit/sw.js', { scope: '/paulwebdevgit.github.io/bachelorarbeit/' })
+            .register('/bachelorarbeit/sw.js', { scope: '/bachelorarbeit/' })
             .then((reg) => {
                 // Registrierung erfolgreich
                 console.log('Registrierung erfolgreich. Scope ist ' + reg.scope);
