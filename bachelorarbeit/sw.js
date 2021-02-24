@@ -5,10 +5,10 @@ const CacheArray = [
     '/bachelorarbeit/index.html',
     '/bachelorarbeit/main.js',
     '/bachelorarbeit/style.css',
-    '/bachelorarbeit/fotos/1.jpeg',
-    '/bachelorarbeit/fotos/2.jpeg',
-    '/bachelorarbeit/fotos/3.jpeg',
-    '/bachelorarbeit/fotos/4.jpeg',
+    '../fotos/1.jpeg',
+    '../fotos/2.jpeg',
+    '../fotos/3.jpeg',
+    '../fotos/4.jpeg',
 ]
 
 self.addEventListener('install', (event) => {
