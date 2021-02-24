@@ -2,13 +2,13 @@ const cacheStorage = 'video_offline_store'
 
 // Array von Daten, die wir in den Cache legen wollen.
 const CacheArray = [
-    '/paulwebdevgit.github.io/bachelorarbeit/index.html',
-    '/paulwebdevgit.github.io/bachelorarbeit/main.js',
-    '/paulwebdevgit.github.io/bachelorarbeit/style.css',
-    '/paulwebdevgit.github.io/bachelorarbeit/fotos/1.jpeg',
-    '/paulwebdevgit.github.io/bachelorarbeit/fotos/2.jpeg',
-    '/paulwebdevgit.github.io/bachelorarbeit/fotos/3.jpeg',
-    '/paulwebdevgit.github.io/bachelorarbeit/fotos/4.jpeg',
+    '/bachelorarbeit/index.html',
+    '/bachelorarbeit/main.js',
+    '/bachelorarbeit/style.css',
+    '/bachelorarbeit/fotos/1.jpeg',
+    '/bachelorarbeit/fotos/2.jpeg',
+    '/bachelorarbeit/fotos/3.jpeg',
+    '/bachelorarbeit/fotos/4.jpeg',
 ]
 
 self.addEventListener('install', (event) => {
