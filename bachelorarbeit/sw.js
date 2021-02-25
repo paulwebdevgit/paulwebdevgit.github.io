@@ -24,6 +24,10 @@ self.addEventListener('install', (event) => {
     )
 });
 
+self.addEventListener('activate', event => {
+    clients.claim();
+    console.log('Now ready to handle fetches!');
+});
 
 self.addEventListener('fetch', (e) => {
     console.log('Es wird eine Anfrage an den Server gestellt');
