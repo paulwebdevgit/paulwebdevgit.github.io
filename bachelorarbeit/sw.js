@@ -13,7 +13,7 @@ const CacheArray = [
 
 self.addEventListener('install', (event) => {
 
-    // self.skipWaiting()
+    self.skipWaiting()
     console.log('Service Worker wurde instaliert');
     event.waitUntil(
         caches.open(cacheStorage).then((cache) => {
