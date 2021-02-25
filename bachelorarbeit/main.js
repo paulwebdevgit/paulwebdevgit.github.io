@@ -152,19 +152,19 @@ window.onload = function() {
 
         // Registrierung des Service Worker.
         if ('serviceWorker' in navigator) {
-            window.addEventListener("load", () => {
 
-                navigator.serviceWorker
-                    .register('/bachelorarbeit/sw.js', { scope: '/bachelorarbeit/' })
-                    .then((reg) => {
-                        // Registrierung erfolgreich
-                        console.log('Registrierung erfolgreich. Scope ist ' + reg.scope);
 
-                    }).catch((error) => {
-                        // Registrierung fehlgeschlagen
-                        console.log('Registrierung fehlgeschlagen mit ' + error);
-                    });
-            })
+            navigator.serviceWorker
+                .register('/bachelorarbeit/sw.js', { scope: '/bachelorarbeit/' })
+                .then((reg) => {
+                    // Registrierung erfolgreich
+                    console.log('Registrierung erfolgreich. Scope ist ' + reg.scope);
+
+                }).catch((error) => {
+                    // Registrierung fehlgeschlagen
+                    console.log('Registrierung fehlgeschlagen mit ' + error);
+                });
+
         };
 
     }
