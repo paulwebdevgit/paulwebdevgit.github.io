@@ -149,27 +149,29 @@ window.onload = function() {
         // Der erste Parameter ist der Speichername und der zweite besteht aus den Spaltenname, 
         // in den der Schlüssel geschrieben wird und optionalen Generierung des Schlüssels.
         db.createObjectStore("videos_store", { keyPath: "id", autoIncrement: true });
+
+        // Registrierung des Service Worker.
+        if ('serviceWorker' in navigator) {
+            window.addEventListener("load", () => {
+
+                navigator.serviceWorker
+                    .register('/bachelorarbeit/sw.js', { scope: '/bachelorarbeit/' })
+                    .then((reg) => {
+                        // Registrierung erfolgreich
+                        console.log('Registrierung erfolgreich. Scope ist ' + reg.scope);
+
+                    }).catch((error) => {
+                        // Registrierung fehlgeschlagen
+                        console.log('Registrierung fehlgeschlagen mit ' + error);
+                    });
+            })
+        };
+
     }
 
     request.onerror = () => {
         console.log("Error");
     }
 
-    // Registrierung des Service Worker.
-    if ('serviceWorker' in navigator) {
-        window.addEventListener("load", () => {
-
-            navigator.serviceWorker
-                .register('/bachelorarbeit/sw.js', { scope: '/bachelorarbeit/' })
-                .then((reg) => {
-                    // Registrierung erfolgreich
-                    console.log('Registrierung erfolgreich. Scope ist ' + reg.scope);
-
-                }).catch((error) => {
-                    // Registrierung fehlgeschlagen
-                    console.log('Registrierung fehlgeschlagen mit ' + error);
-                });
-        })
-    };
 
 }
