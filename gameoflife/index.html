@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Game of Life</title>
     <link href="./style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="project">
-      <div class="title">Game of Life</div>
-      <div class="content-wraper">
-        <div class="content">
-          <div class="customization">
-            <div class="values">
-              <div class="height" data-title="Optimale Zahl 600">
-                <input
-                  id="h"
-                  class="form-control form_input"
-                  required
-                  type="text"
-                  placeholder=" Bitte geben Sie die Höhe ein"
-                />
-              </div>
-              <div class="width" data-title="Optimale Zahl 1200">
-                <input
-                  id="w"
-                  class="form-control form_input"
-                  required
-                  type="text"
-                  placeholder=" Bitte geben Sie die Breite ein"
-                />
-              </div>
-            </div>
-            <div class="button-wraper">
-              <button class="button button-render">Render</button>
-              <button class="button button-stop">Stop</button>
-            </div>
-          </div>
+</head>
 
-          <div class="canvas-wraper">
-            <div class="canvas"><canvas></canvas></div>
-          </div>
+<body>
+    <div class="project">
+        <div class="title">Game of Life</div>
+        <div class="content-wraper">
+            <div class="content">
+                <div class="customization">
+                    <div class="values">
+                        <div class="height" data-title="Optimale Zahl 600">
+                            <input id="h" class="form-control form_input" required type="text" placeholder=" Bitte geben Sie die Höhe ein" />
+                        </div>
+                        <div class="width" data-title="Optimale Zahl 1200">
+                            <input id="w" class="form-control form_input" required type="text" placeholder=" Bitte geben Sie die Breite ein" />
+                        </div>
+                    </div>
+                    <div class="button-wraper">
+                        <button class="button button-render">Render</button>
+                        <button class="button button-stop">Stop/Start</button>
+                    </div>
+                </div>
+
+                <div class="canvas-wraper">
+                    <div class="canvas"><canvas></canvas></div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <script src="life.js"></script>
-  </body>
+</body>
+
 </html>
