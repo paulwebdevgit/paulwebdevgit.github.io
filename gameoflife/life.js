@@ -61,9 +61,11 @@ function go() {
         if (!flag) {
             myReq = requestAnimationFrame(anim);
             flag = true
+            console.log(true)
         } else {
             window.cancelAnimationFrame(myReq);
             flag = false
+            console.log(false)
         }
         // if (!flag) {
         //     console.log("request")

@@ -10,10 +10,9 @@ body {
 .container {
     width: 1140px;
     margin: auto;
-    
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +20,7 @@ body {
     margin-bottom: 30%;
 }
 
-.logo{
+.logo {
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -30,14 +29,14 @@ body {
     color: #ffffff;
 }
 
-.search{
+.search {
     display: flex;
     align-items: center;
     flex: 0.8;
 }
 
 .search-input {
-    flex:1;
+    flex: 1;
     background: rgba(196, 196, 196, 0.5);
     border-radius: 5px;
     padding: 12px 12px;
@@ -45,10 +44,9 @@ body {
     color: #AEAEAE;
     font-size: 14px;
     line-height: 16px;
-    
 }
 
-.search-input::placeholder{
+.search-input::placeholder {
     color: #AEAEAE;
 }
 
@@ -64,30 +62,30 @@ body {
     align-items: center;
 }
 
-.avatar{
+.avatar {
     margin-left: 20px;
     width: 40px;
-    height: 40px; 
+    height: 40px;
     border-radius: 50%;
-    object-fit: cover;  
+    object-fit: cover;
 }
 
-.title{
+.title {
     margin: 0;
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     line-height: 64px;
     margin-bottom: 7px;
-    
 }
 
-.title-en{
+.title-en {
     display: inline-block;
     font-size: 20px;
     line-height: 23px;
     color: #787878;
     margin-bottom: 38px;
 }
+
 .info {
     display: flex;
     align-items: center;
@@ -113,7 +111,7 @@ body {
 
 .country {
     font-size: 16px;
-    line-height: 19px; 
+    line-height: 19px;
     margin-right: 33px;
 }
 
@@ -126,7 +124,7 @@ body {
     text-decoration: none;
 }
 
-.play:before{
+.play:before {
     content: '';
     width: 30px;
     height: 30px;
@@ -136,14 +134,13 @@ body {
     margin-right: 15px;
 }
 
-.more{
+.more {
     display: flex;
     align-items: center;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
-    
 }
 
 .more:after {
@@ -157,7 +154,7 @@ body {
     transform: rotate(90deg);
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-between;
     background: #ffffff;
@@ -166,27 +163,27 @@ body {
     padding: 3% 4%;
     margin-bottom: 64px;
 }
-.short-info{
+
+.short-info {
     margin-right: 3%;
 }
 
 .poster {
     display: block;
-    margin-top: -40%;
+    margin-top: -29%;
     margin-bottom: 20px;
 }
 
-.button{
+.button {
     background: #FF8F27;
     padding: 10px 42.5px;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
     border: none;
-   
 }
 
-.actors-title{
+.actors-title {
     padding-left: 15px;
     font-weight: 900;
     font-size: 16px;
@@ -194,7 +191,7 @@ body {
     margin-bottom: 10px;
 }
 
-.actors-list{
+.actors-list {
     margin: 0;
     padding-left: 15px;
     list-style: none;
@@ -202,26 +199,26 @@ body {
     line-height: 150%;
 }
 
-.full-info{
+.full-info {
     flex: 0.97;
     margin-bottom: 40px;
 }
 
-.tabs{
+.tabs {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 4%;
 }
 
-.tabs-item{
+.tabs-item {
     text-decoration: none;
     font-size: 18px;
     line-height: 21px;
-    color: #000000; 
+    color: #000000;
 }
 
-.tabs-item:not(:last-child){
+.tabs-item:not(:last-child) {
     margin-right: 4%;
 }
 
@@ -229,34 +226,33 @@ body {
     color: #FF8F27;
 }
 
-.tabs-content{
+.tabs-content {
     display: none;
     margin-right: 70px;
 }
 
-.visible{
+.visible {
     display: block;
 }
 
-.full-content{
+.full-content {
     display: flex;
     justify-content: space-between;
 }
 
-.text-title{
+.text-title {
     font-weight: 900;
     font-size: 16px;
     line-height: 140%;
 }
 
-.text{
+.text {
     font-size: 16px;
     line-height: 140%;
     margin-top: 0;
 }
 
-
-.subscribe-title{
+.subscribe-title {
     display: inline-block;
     font-weight: 900;
     font-size: 16px;
@@ -265,156 +261,132 @@ body {
     margin-top: 0;
 }
 
-.subscribe-form{
+.subscribe-form {
     margin-bottom: 48px;
     position: relative;
 }
 
-.subscribe-input{
+.subscribe-input {
     width: calc(100%-5px);
     background: rgba(241, 241, 241, 0.5);
     border-radius: 5px 0 0 5px;
     padding-top: 12px;
-    padding-bottom: 12px; 
-    padding-left:15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
     padding-right: 15px;
     border: none;
     color: #9B9B9B;
     font-size: 14px;
     line-height: 16px;
-
-
 }
 
-.subscribe-input::placeholder{
+.subscribe-input::placeholder {
     color: #9B9B9B;
 }
 
-.subcribe-button{
+.subcribe-button {
     background-color: #FF8F27;
     border: none;
     padding: 9px;
     height: 40px;
     cursor: pointer;
     border-radius: 0 5px 5px 0;
-    position: absolute; 
+    position: absolute;
     right: 0;
-    top:0;
+    top: 0;
 }
 
 @media(max-width: 1200px) {
-    .container{
+    .container {
         max-width: 960px;
     }
-
-    .tabs-item{
+    .tabs-item {
         font-size: 16px;
     }
 }
 
 @media(max-width: 992px) {
-    .container{
+    .container {
         width: 740px;
     }
-    
-    .tabs{
+    .tabs {
         flex-wrap: wrap;
     }
-
-    .tabs-item{
+    .tabs-item {
         flex-basis: 20%;
         line-height: 2;
     }
-    
-    .full-content{
+    .full-content {
         flex-wrap: wrap;
     }
-
-    .tabs-content{
+    .tabs-content {
         margin-bottom: 5%;
     }
-
-    .text{
+    .text {
         font-style: 14px;
     }
-
-    .actors-list{
+    .actors-list {
         font-size: 14px;
     }
 }
 
 @media(max-width: 768px) {
-    .container{
+    .container {
         width: 540px;
     }
-
-    .more{
+    .more {
         display: none;
     }
-
-    .tabs-item{
+    .tabs-item {
         flex-basis: 33%;
     }
-
-    .tabs-content{
+    .tabs-content {
         margin-right: 0;
     }
-    
-   
 }
 
 @media (max-width: 576px) {
-    .container{
-        width: 90%; 
+    .container {
+        width: 90%;
     }
-
-    .header{
+    .header {
         flex-wrap: wrap;
     }
-
-    .search{
+    .search {
         flex-basis: 100%;
         order: 3;
         margin-top: 5%;
     }
-
-    .content{
+    .content {
         flex-wrap: wrap;
     }
-
-    .actors-title, .actors-list{
+    .actors-title,
+    .actors-list {
         display: none;
     }
-
-    .short-info{
+    .short-info {
         align-items: center;
         margin-bottom: 5%;
     }
-    .movie-info{
+    .movie-info {
         flex-wrap: wrap;
     }
-    
-    .play{
+    .play {
         flex-basis: 100%;
         margin-bottom: 10%;
     }
-
-    .short-info{
+    .short-info {
         margin-right: 0;
     }
-
-    .poster{
+    .poster {
         display: inline-block;
         width: 100%;
         margin-top: -20%;
-
     }
-
-    .button{
+    .button {
         width: 100%;
     }
-
-    .subscribe{
+    .subscribe {
         margin: auto;
     }
 }
