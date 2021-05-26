@@ -1,0 +1,43 @@
+[{
+        "id": "pb01",
+        "name": "Burger №1",
+        "description": "Burger mit knusprigem Bacon, Chicken, Gurken und Zwiebeln",
+        "price": 6,
+        "image": "img/burger-foto/min/1-min.jpg"
+    },
+    {
+        "id": "pb02",
+        "name": "Burger №2",
+        "description": "Burger mit Beef, frischen Tomaten und Käse",
+        "price": 6,
+        "image": "img/burger-foto/min/2-min.jpg"
+    },
+    {
+        "id": "pb03",
+        "name": "Burger №3",
+        "description": "Burger mit Beef, Bacon, frischen Tomaten und Käse",
+        "price": 7,
+        "image": "img/burger-foto/min/3-min.jpg"
+    },
+    {
+        "id": "pb04",
+        "name": "Burger №4",
+        "description": "Double Burger mit Beef, Bacon, frischen Tomaten und Käse",
+        "price": 7,
+        "image": "img/burger-foto/min/4-min.jpg"
+    },
+    {
+        "id": "pb05",
+        "name": "Burger №5",
+        "description": "Big Double Burger mit Beef, Bacon, frischen Tomaten und Käse",
+        "price": 5,
+        "image": "img/burger-foto/min/5-min.jpg"
+    },
+    {
+        "id": "pb06",
+        "name": "Burger №6",
+        "description": "Big Burger mit Beef, Bacon, frischen Tomaten und Käse",
+        "price": 6,
+        "image": "img/burger-foto/min/6-min.jpg"
+    }
+]

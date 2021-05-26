@@ -12,13 +12,27 @@
 </head>
 
 <body>
+    <div class="return hide">
+        <a class="return-style">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 459 459" xml:space="preserve">
+<g>
+	<g id="reply">
+		<path d="M178.5,140.25v-102L0,216.75l178.5,178.5V290.7c127.5,0,216.75,40.8,280.5,130.05C433.5,293.25,357,165.75,178.5,140.25z"
+			/>
+	</g>
+</g>
+
+</svg>
+        </a>
+    </div>
+
     <div class="container">
         <header class="header">
             <a class="logo">
                 <div class="logo"><i>Logo</i></div>
             </a>
             <label class="address">
-                <input type="text" class="input input-address" placeholder=" Adresse, z.B. Kirchstrasse" />
+                <input type="text" class="input input-address" placeholder=" Nach Restaurants suchen" />
             </label>
             <div class="buttons">
                 <span class="user-name"></span>
@@ -26,9 +40,11 @@
                     <span class="button-auth-svg"></span>
                     <span class="button-text">Einloggen</span>
                 </button>
+
                 <button class="button button-cart" id="cart-button">
                     <span class="button-cart-svg"></span>
                     <span class="button-text">Einkaufskorb</span>
+                    <span class="counter-all hide"></span>
                 </button>
                 <button class="button button-primary button-out">
                     <span class="button-text">Ausloggen</span>
@@ -43,19 +59,24 @@
         <div class="container">
             <section class="container-promo">
                 <section class="promo pizza">
-                    <h1 class="promo-title">Online Essen bestellen</h1>
-                    <p class="promo-text">
-                        Gerichte aus Ihrem Lieblingsrestaurant werden von einem Kurier mit Handschuhen und einer Maske gebracht
-                    </p>
+                    <div class="promo-info">
+                        <h1 class="promo-title">Online Essen bestellen</h1>
+                        <p class="promo-text">
+                            Gerichte aus Ihrem Lieblingsrestaurant werden von einem Kurier mit Handschuhen und einer Maske geliefert
+                        </p>
+                    </div>
+
                 </section>
-        
             </section>
+
+
+            <label class="search">
+                <input type="text" class="input input-search" placeholder="Suche nach Gerichten" />
+            </label>
             <section class="restaurants">
                 <div class="section-heading">
                     <h2 class="section-title">Restaurants</h2>
-                    <label class="search">
-                        <input type="text" class="input input-search" placeholder="Suche nach Gerichten und Restaurants" />
-                    </label>
+
                 </div>
                 <div class="cards cards-restaurants">
 
@@ -85,15 +106,15 @@
             <div class="footer-block">
                 <div class="logo">Logo</div>
                 <nav class="footer-nav">
-                    <a href="#" class="footer-link">Restaurants </a>
+                    <!-- <a href="#" class="footer-link">Restaurants </a>
                     <a href="#" class="footer-link">Für Kuriere</a>
                     <a href="#" class="footer-link">Pressezentrum</a>
-                    <a href="#" class="footer-link">Kontakte</a>
+                    <a href="#" class="footer-link">Kontakte</a> -->
                 </nav>
                 <div class="social-links">
-                    <a href="#" class="social-link"><img src="img/social/instagram.svg" alt="instagram" /></a>
-                    <a href="#" class="social-link"><img src="img/social/fb.svg" alt="facebook" /></a>
-                    
+                    <!-- <a href="#" class="social-link"><img src="img/social/instagram.svg" alt="instagram" /></a>
+                    <a href="#" class="social-link"><img src="img/social/fb.svg" alt="facebook" /></a> -->
+
                 </div>
                 <!-- /.social-links -->
             </div>
@@ -109,8 +130,8 @@
             </div>
             <!-- /.modal-header -->
             <div class="modal-body">
-                
-        
+
+
             </div>
             <!-- /.modal-body -->
             <div class="modal-footer">
@@ -156,7 +177,7 @@
     <!-- <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> -->
     <script src="js/disableScroll.js"></script>
     <script src="js/main.js"></script>
-    
+
 </body>
 
 </html>

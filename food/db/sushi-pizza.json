@@ -1,0 +1,43 @@
+[{
+        "id": "ps01",
+        "name": "Salami",
+        "description": "Extra scharfe Salami",
+        "price": 8,
+        "image": "img/sushi-pizza/1.jpg"
+    },
+    {
+        "id": "ps02",
+        "name": "Pizza Margherita",
+        "description": "Margherita mit roten Zwiebeln, Edamer Käse uund sahnigen Mozzarellakugeln",
+        "price": 9,
+        "image": "img/sushi-pizza/2.jpg"
+    },
+    {
+        "id": "ps03",
+        "name": "Philadelphia Roll",
+        "description": "Philadelphia Roll mit frischem Lachs",
+        "price": 10,
+        "image": "img/sushi-pizza/3.jpg"
+    },
+    {
+        "id": "ps04",
+        "name": "Maki",
+        "description": "Lachs Maki",
+        "price": 12,
+        "image": "img/sushi-pizza/4.jpg"
+    },
+    {
+        "id": "ps05",
+        "name": "Lachs Roll",
+        "description": "Frischer Lachs",
+        "price": 13,
+        "image": "img/sushi-pizza/5.jpg"
+    },
+    {
+        "id": "ps06",
+        "name": "Ebi Udon",
+        "description": "Japanische Suppe mit Miso-Brühe mit Ei, Tigergarnelen, Nudeln, Pilzen und Frühlingszwiebeln.",
+        "price": 11,
+        "image": "img/sushi-pizza/6.jpg"
+    }
+]

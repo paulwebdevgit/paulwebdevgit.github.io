@@ -1,44 +1,43 @@
-[
-  {
-    "id": "fb01",
-    "name": "Mit Fleich",
-    "description": "Pizzasauce, Mozzarella-Käse, Tomate, Hähnchenfilet, Peperoni, Schweinefleisch, Speck",
-    "price": 10,
-    "image": "img/food-band/meet.jpg"
-  },
-  {
-    "id": "fb02",
-    "name": "Margherita",
-    "description": "Pizzasauce, Mozzarella-Käse, Tomate",
-    "price": 11,
-    "image": "img/food-band/margarita.jpg"
-  },
-  {
-    "id": "fb03",
-    "name": "Salami",
-    "description": "Pizzasauce, Peperoni, Mozzarella",
-    "price": 12,
-    "image": "img/food-band/pepperoni.jpg"
-  },
-  {
-    "id": "fb04",
-    "name": "Pizza French Cheese",
-    "description": "Mozzarella-Käse, Emmentaler, Käsesauce, Gorgonzola-Käse, Cheddar-Käse, Cremette-Käse, Fetaxa-Käse, Parmesan",
-    "price": 8,
-    "image": "img/food-band/seven-cheeses.jpg"
-  },
-  {
-    "id": "fb05",
-    "name": "Tom Yam",
-    "description": "Garnelen, Hähnchenfilet, Tom Yam Sauce, Mozzarella, Pilze, Brokkoli, Tomaten.",
-    "price": 9,
-    "image": "img/food-band/tom-yam.jpg"
-  },
-  {
-    "id": "fb06",
-    "name": "Nrwegische",
-    "description": "Cremige Sauce, Mango-Chili-Sauce, Mozzarella-Käse, rote Zwiebel, bulgarischer Pfeffer, Lachsscheiben, Eisbergsalat",
-    "price": 15,
-    "image": "img/food-band/norwegian.jpg"
-  }
+[{
+        "id": "fb01",
+        "name": "Mit Fleich",
+        "description": "Pizzasauce, Mozzarella-Käse, Tomate, Hähnchenfilet, Peperoni, Schweinefleisch, Speck",
+        "price": 10,
+        "image": "img/food-band/1.jpg"
+    },
+    {
+        "id": "fb02",
+        "name": "Salami",
+        "description": "Pizzasauce, Peperoni, Mozzarella",
+        "price": 11,
+        "image": "img/food-band/2.jpg"
+    },
+    {
+        "id": "fb03",
+        "name": "Margherita",
+        "description": "Pizzasauce, Mozzarella-Käse, Tomate",
+        "price": 12,
+        "image": "img/food-band/3.jpg"
+    },
+    {
+        "id": "fb04",
+        "name": "Pizza French Cheese",
+        "description": "Mozzarella-Käse, Emmentaler, Käsesauce, Gorgonzola-Käse, Cheddar-Käse, Cremette-Käse, Fetaxa-Käse, Parmesan",
+        "price": 8,
+        "image": "img/food-band/4.jpg"
+    },
+    {
+        "id": "fb05",
+        "name": "Margherita Extra",
+        "description": "Pizzasauce, Extra-Mozzarella-Käse, Tomate",
+        "price": 9,
+        "image": "img/food-band/5.jpg"
+    },
+    {
+        "id": "fb06",
+        "name": "Nrwegische",
+        "description": "Cremige Sauce, Mango-Chili-Sauce, Mozzarella-Käse, rote Zwiebel, bulgarischer Pfeffer, Lachsscheiben, Eisbergsalat",
+        "price": 15,
+        "image": "img/food-band/6.jpg"
+    }
 ]

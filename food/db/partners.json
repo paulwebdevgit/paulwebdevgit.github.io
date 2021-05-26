@@ -1,58 +1,58 @@
-[
-  {
-    "name": "Pizza Plus",
-    "time_of_delivery": 50,
-    "stars": 4.5,
-    "price": 9,
-    "kitchen": "Pizza",
-    "image": "img/pizza-plus/preview.jpg",
-    "products": "pizza-plus.json"
-  },
-  {
-    "name": "Sushi",
-    "time_of_delivery": 60,
-    "stars": 4.3,
-    "price": 12,
-    "kitchen": "Sushi",
-    "image": "img/tanuki/preview.jpg",
-    "products": "tanuki.json"
-  },
-  {
-    "name": "Burger-Pizza",
-    "time_of_delivery": 45,
-    "stars": 4.6,
-    "price": 7,
-    "kitchen": "Pizza",
-    "image": "img/pizza-burger/preview.jpg",
-    "products": "pizza-burger.json"
-  },
-  {
-    "name": "Food-Band",
-    "time_of_delivery": 40,
-    "stars": 4.4,
-    "price": 5,
-    "kitchen": "Pizza",
-    "image": "img/food-band/preview.jpg",
-    "products": "food-band.json"
-  },
-  {
-    "name": "Call-Pizza",
-    "time_of_delivery": 55,
-    "stars": 4.1,
-    "price": 5,
-    "kitchen": "Pizza",
-    "image": "img/palki-skalki/preview.jpg",
-    "products": "palki-skalki.json"
-  },
-  
-  {
-    "name": "Pizza-Burger",
-    "time_of_delivery": 45,
-    "stars": 4.6,
-    "price": 7,
-    "kitchen": "Pizza",
-    "image": "img/pizza-burger/preview.jpg",
-    "products": "pizza-burger.json"
-  }
-  
+[{
+        "name": "Pizza Plus",
+        "time_of_delivery": 50,
+        "stars": 4.5,
+        "price": 9,
+        "kitchen": "Pizza",
+        "image": "img/pizza-plus/preview.jpg",
+        "products": "pizza-plus.json"
+    },
+    {
+        "name": "Sushi",
+        "time_of_delivery": 60,
+        "stars": 4.3,
+        "price": 12,
+        "kitchen": "Sushi",
+        "image": "img/tanuki/preview.jpg",
+        "products": "sushi.json"
+    },
+
+    {
+        "name": "Pizza",
+        "time_of_delivery": 45,
+        "stars": 4.6,
+        "price": 7,
+        "kitchen": "Pizza",
+        "image": "img/pizza-burger/preview.jpg",
+        "products": "pizza.json"
+    },
+    {
+        "name": "Food-Band",
+        "time_of_delivery": 40,
+        "stars": 4.4,
+        "price": 5,
+        "kitchen": "Pizza",
+        "image": "img/food-band/preview.jpg",
+        "products": "food-band.json"
+    },
+    {
+        "name": "Sush-Pizza",
+        "time_of_delivery": 55,
+        "stars": 4.1,
+        "price": 5,
+        "kitchen": "Sushi-Pizza",
+        "image": "img/sushi-pizza/preview.jpg",
+        "products": "sushi-pizza.json"
+    },
+
+    {
+        "name": "Burger",
+        "time_of_delivery": 45,
+        "stars": 4.6,
+        "price": 7,
+        "kitchen": "Burgers",
+        "image": "img/burger-foto/preview-min.jpg",
+        "products": "burger.json"
+    }
+
 ]
